@@ -1,6 +1,6 @@
 # OnlineRetailer.Products
 
-A backend service for an Amazon-style online retailer, developed for a university Cloud Computing DevOps module.
+A backend service for an Amazon-style online retailer, developed for my university Cloud Computing DevOps module.
 
 ---
 
