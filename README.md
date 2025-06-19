@@ -1,27 +1,24 @@
 # OnlineRetailer.Products
 
-A backend service for an Amazon-style online retailer, developed as part of my university Cloud Computing DevOps module.
+A backend service for an Amazon-style online retailer, developed for a university Cloud Computing DevOps module.
 
 ---
 
 ## Overview
 
-This repository contains the core backend components for managing products and orders in an online retail environment. It is designed using microservices principles, supporting modular development, extensibility, and integration with additional system containers.
-
-- **Implements:** Product listing/search, order management, basic user management (if applicable).
-- **Assessment:** This service forms part of the solution for the ThAmCo System scenario, addressing requirements for product and order handling.
+This repository contains backend components for managing products and orders in an online retail environment. It is structured to support modular development and demonstrates core DevOps and microservices principles.
 
 ---
 
 ## Project Structure
 
 ```
-ThAmCo.Services.ProductsAPI/         # Main backend API for products/orders
-  ├── Controllers/                   # REST API endpoints (products, orders)
+ThAmCo.Services.ProductsAPI/         # Main backend API for products and orders
+  ├── Controllers/                   # REST API endpoints
   ├── Data/                          # Data context and access logic
   ├── OrderRepo/                     # Order repository logic
   ├── ProductsRepo/                  # Product repository logic
-  ├── UnderCutters/                  # Price comparison/undercutting logic
+  ├── UnderCutters/                  # Price comparison/undercutting logic (stub/mock)
   ├── Program.cs                     # Application entry/configuration
   └── appsettings.json               # Service configuration
 
@@ -38,7 +35,7 @@ workflows/                           # CI/CD (GitHub Actions) configs
 ### Prerequisites
 
 - [.NET 6.0 SDK or later](https://dotnet.microsoft.com/download)
-- (Optional) [Docker](https://www.docker.com/) for containerised development
+- (Optional) [Docker](https://www.docker.com/) for containerized development
 
 ### Setup & Run
 
@@ -48,7 +45,7 @@ cd OnlineRetailer.Products/ThAmCo.Services.ProductsAPI
 dotnet restore
 dotnet run
 ```
-The API runs by default on [http://localhost:5000](http://localhost:5000) (see `appsettings.json` for config).
+The API runs by default on [http://localhost:5000](http://localhost:5000) (see `appsettings.json` for configuration).
 
 ---
 
@@ -63,40 +60,25 @@ dotnet test ThAmCo.Services.ProductsAPI.Tests
 
 ## Features
 
-- Product listing and search (including "loose" search in name/descriptor)
-- Order creation and management (with stock/funds logic)
-- Extensible repository structure for future containers and integrations
-- Designed as a microservice, suitable for cloud-native deployment
-- Examples of secure endpoints and basic error handling
-- Automated tests (unit and integration)
+- Product listing and retrieval
+- Order creation and management
+- Modular repository structure
+- Automated unit and integration tests
 
 ---
 
-## DevOps, CI/CD & Resilience
+## DevOps & CI/CD
 
-- **GitHub Actions** under `/workflows` provide:
-  - Automated build and test on every push/PR
-  - Sample deployment workflow (customizable)
-- **Configuration Management:** Uses `appsettings.json` and environment variables for flexible deployment (test/live).
-- **Resilience:** Basic error handling and retry logic included (expand as needed for assessment).
-- **Security:** Demonstrates secure endpoints (JWT/auth can be mocked for demo).
+- **GitHub Actions** under `/workflows` for automated build and test on every push and pull request
+- **Configuration management** using `appsettings.json` and environment variables
 
 ---
 
 ## System Architecture & Technology Choices
 
-- **Tech Stack:** ASP.NET Core 6, Entity Framework Core, (optionally) SQL Server or SQLite.
-- **Architecture Diagrams & Design Rationale:**  
-  See [Design Diagrams/](./Design%20Diagrams) for:
-  - C4 Container and deployment diagrams
-  - System boundaries and interfaces
-  - Narrative on technology and design decisions, explaining security/resilience and DevOps choices
-
----
-
-## Mocked/External Dependencies
-
-- Interfaces to other system containers (e.g., payments, user management) are **mocked or stubbed** to allow for individual container development/testing, as per assignment instructions.
+- **Tech Stack:** ASP.NET Core 6, Entity Framework Core, SQL Server (or SQLite for development/testing)
+- **Architecture Diagrams:**  
+  See the [Design Diagrams/](./Design%20Diagrams) directory for architecture diagrams and design documentation
 
 ---
 
