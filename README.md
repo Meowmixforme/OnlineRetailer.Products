@@ -8,6 +8,12 @@ A backend service for an Amazon-style online retailer, developed for my universi
 
 This repository contains backend components for managing products and orders in an online retail environment. It is structured to support modular development and demonstrates core DevOps and microservices principles.
 
+
+
+<img width="811" height="1086" alt="ThAmCo-Level-1 drawio" src="https://github.com/user-attachments/assets/c74e04eb-8271-4427-9cef-df6c521c195d" />
+
+
+
 ---
 
 ## Project Structure
