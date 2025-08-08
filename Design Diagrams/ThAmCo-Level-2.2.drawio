@@ -1,300 +1,245 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.8">
-  <diagram name="Page-1" id="3DWwMmXvD1Axm2jizf0n">
-    <mxGraphModel dx="2885" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2025-01-08T21:52:06.000Z" agent="5.0" version="24.7.17" etag="abc123" type="device">
+  <diagram name="ThAmCo Level 2 - Fixed" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="2074" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         
-        <!-- Actors/Persons -->
-        <object placeholders="1" c4Name="Anonymous User" c4Type="Person" c4Description="A user not logged in or registered" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.25,0],[0.75,0,0],[0.5,0,0],[0.25,0,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,0.75,0],[1,0.5,0],[1,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="130" y="30" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
+        <!-- Title -->
+        <mxCell id="title" value="ThAmCo Online Retailer - Level 2 System Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Registered User" c4Type="Person" c4Description="A registered authenticated user" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.25,0],[0.75,0,0],[0.5,0,0],[0.25,0,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,0.75,0],[1,0.5,0],[1,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="390" y="30" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
+        <!-- Actors -->
+        <mxCell id="actor1" value="&lt;b&gt;Anonymous User&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;&lt;br&gt;Browses products and registers accounts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Staff" c4Type="Person" c4Description="A ThAmCo member of staff" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.25,0],[0.75,0,0],[0.5,0,0],[0.25,0,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,0.75,0],[1,0.5,0],[1,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="660" y="30" width="200" height="180" as="geometry" />
-          </mxCell>
-        </object>
-
+        <mxCell id="actor2" value="&lt;b&gt;Registered User&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;&lt;br&gt;Places orders and manages account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="actor3" value="&lt;b&gt;Staff&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;&lt;br&gt;Manages inventory and processes orders" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        
         <!-- Web Applications -->
-        <object placeholders="1" c4Name="ThAmCo Customer Web App" c4Type="Container" c4Technology="C# ASP.NET Core 7 MVC" c4Description="Browse, Buy and sell products" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="130" y="340" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="webapp1" value="&lt;b&gt;Customer Web App&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core MVC]&lt;br&gt;&lt;br&gt;Provides product browsing, user registration, and order placement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="200" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="ThAmCo Staff Web App" c4Type="Container" c4Technology="C# ASP.NET Core 7 MVC" c4Description="Staff management and administration" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="660" y="340" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-
+        <mxCell id="webapp2" value="&lt;b&gt;Staff Web App&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core MVC]&lt;br&gt;&lt;br&gt;Staff interface for inventory and order management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="200" height="100" as="geometry" />
+        </mxCell>
+        
         <!-- Microservices -->
-        <object placeholders="1" c4Name="Customer Accounts Microservice" c4Type="Container" c4Technology="C# ASP.NET Core 7 API" c4Description="REST API for customer registration, authentication and profile updates" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="50" y="620" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="ms1" value="&lt;b&gt;Customer Accounts&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core API]&lt;br&gt;&lt;br&gt;Handles user authentication and profile management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Staff Accounts Microservice" c4Type="Container" c4Technology="C# ASP.NET Core 7 API" c4Description="REST API for staff login and role management" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="350" y="620" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="ms2" value="&lt;b&gt;Staff Accounts&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core API]&lt;br&gt;&lt;br&gt;Manages staff authentication and roles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Products Microservice" c4Type="Container" c4Technology="C# ASP.NET Core 7 API" c4Description="REST API for product catalog CRUD operations" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="650" y="620" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="ms3" value="&lt;b&gt;Products Microservice&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core API]&lt;br&gt;&lt;br&gt;Product catalog CRUD operations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Orders Microservice" c4Type="Container" c4Technology="C# ASP.NET Core 7 API" c4Description="REST API for order management and order events" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="950" y="620" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="ms4" value="&lt;b&gt;Orders Microservice&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core API]&lt;br&gt;&lt;br&gt;Order creation and management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Name="Stock Microservice" c4Type="Container" c4Technology="C# ASP.NET Core 7 API" c4Description="REST API for stock level management and supplier integration" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1250" y="620" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-
+        <mxCell id="ms5" value="&lt;b&gt;Stock Microservice&lt;/b&gt;&lt;br&gt;[Container: ASP.NET Core API]&lt;br&gt;&lt;br&gt;Inventory and stock level management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
+        
         <!-- Databases -->
-        <object placeholders="1" c4Type="Customer Account Database" c4Container="Container" c4Technology="SQL Server 2019" c4Description="Stores customer account and authentication data" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="50" y="900" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="db1" value="&lt;b&gt;Customer Database&lt;/b&gt;&lt;br&gt;[Container: SQL Server]&lt;br&gt;&lt;br&gt;Customer account data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="140" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Type="Staff Account Database" c4Container="Container" c4Technology="SQL Server 2019" c4Description="Stores staff account and role data" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="350" y="900" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="db2" value="&lt;b&gt;Staff Database&lt;/b&gt;&lt;br&gt;[Container: SQL Server]&lt;br&gt;&lt;br&gt;Staff account data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="140" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Type="Products Database" c4Container="Container" c4Technology="SQL Server 2019" c4Description="Stores product catalog information" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="650" y="900" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="db3" value="&lt;b&gt;Products Database&lt;/b&gt;&lt;br&gt;[Container: SQL Server]&lt;br&gt;&lt;br&gt;Product catalog data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="140" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Type="Orders Database" c4Container="Container" c4Technology="SQL Server 2019" c4Description="Stores order and transaction data" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="950" y="900" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="db4" value="&lt;b&gt;Orders Database&lt;/b&gt;&lt;br&gt;[Container: SQL Server]&lt;br&gt;&lt;br&gt;Order transaction data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="720" y="620" width="140" height="100" as="geometry" />
+        </mxCell>
         
-        <object placeholders="1" c4Type="Stock Database" c4Container="Container" c4Technology="SQL Server 2019" c4Description="Stores inventory and stock level data" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="1250" y="900" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-
+        <mxCell id="db5" value="&lt;b&gt;Stock Database&lt;/b&gt;&lt;br&gt;[Container: SQL Server]&lt;br&gt;&lt;br&gt;Inventory level data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="940" y="620" width="140" height="100" as="geometry" />
+        </mxCell>
+        
         <!-- External Systems -->
-        <object placeholders="1" c4Name="Email Service" c4Type="External System" c4Description="Sends notifications and emails to users" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1620" y="30" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Name="Payment Gateway" c4Type="External System" c4Description="Processes payments and transactions" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1620" y="200" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Name="Product Supplier" c4Type="External System" c4Description="External supplier providing product updates" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1620" y="370" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
-
-        <!-- User to Web App Relationships -->
-        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Browse products and register accounts" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-1" target="Ac9yGH6YqjJo9ZlH8KfV-4">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="230" y="250" as="sourcePoint" />
-              <mxPoint x="470" y="250" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Browse products and place orders" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-2" target="Ac9yGH6YqjJo9ZlH8KfV-4">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="490" y="250" as="sourcePoint" />
-              <mxPoint x="250" y="340" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Manage inventory and view orders" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-3" target="Ac9yGH6YqjJo9ZlH8KfV-5">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="760" y="250" as="sourcePoint" />
-              <mxPoint x="780" y="340" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-
-        <!-- Web App to Microservice Relationships -->
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Authenticates users" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-4" target="Ac9yGH6YqjJo9ZlH8KfV-6">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="190" y="520" as="sourcePoint" />
-              <mxPoint x="170" y="620" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Manages products and inventory" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-4" target="Ac9yGH6YqjJo9ZlH8KfV-8">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="310" y="520" as="sourcePoint" />
-              <mxPoint x="770" y="620" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Creates and manages orders" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-4" target="Ac9yGH6YqjJo9ZlH8KfV-9">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="370" y="430" as="sourcePoint" />
-              <mxPoint x="950" y="650" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Staff authentication" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-5" target="Ac9yGH6YqjJo9ZlH8KfV-7">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="720" y="520" as="sourcePoint" />
-              <mxPoint x="470" y="620" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Stock management" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-5" target="Ac9yGH6YqjJo9ZlH8KfV-10">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="900" y="430" as="sourcePoint" />
-              <mxPoint x="1250" y="650" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-
-        <!-- Microservice to Database Relationships -->
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Reads from and writes to customer account data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-6" target="Ac9yGH6YqjJo9ZlH8KfV-11">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="170" y="760" as="sourcePoint" />
-              <mxPoint x="170" y="900" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Reads from and writes to staff account data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-7" target="Ac9yGH6YqjJo9ZlH8KfV-12">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="470" y="760" as="sourcePoint" />
-              <mxPoint x="470" y="900" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Reads from and writes to product catalog data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-8" target="Ac9yGH6YqjJo9ZlH8KfV-13">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="770" y="760" as="sourcePoint" />
-              <mxPoint x="770" y="900" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Reads from and writes to order data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-9" target="Ac9yGH6YqjJo9ZlH8KfV-14">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1070" y="760" as="sourcePoint" />
-              <mxPoint x="1070" y="900" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Reads from and writes to stock data" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-10" target="Ac9yGH6YqjJo9ZlH8KfV-15">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1370" y="760" as="sourcePoint" />
-              <mxPoint x="1370" y="900" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-
-        <!-- External System Relationships -->
-        <object placeholders="1" c4Type="Relationship" c4Technology="SMTP" c4Description="Sends order confirmations and notifications" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-16" target="Ac9yGH6YqjJo9ZlH8KfV-9">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1620" y="90" as="sourcePoint" />
-              <mxPoint x="1190" y="640" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS/API" c4Description="Processes payment transactions" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-17" target="Ac9yGH6YqjJo9ZlH8KfV-9">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1620" y="260" as="sourcePoint" />
-              <mxPoint x="1190" y="680" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS/API" c4Description="Receives stock and product updates" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-18" target="Ac9yGH6YqjJo9ZlH8KfV-10">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1620" y="430" as="sourcePoint" />
-              <mxPoint x="1490" y="710" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-
-        <!-- Microservice Interactions -->
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Validates product availability" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-9" target="Ac9yGH6YqjJo9ZlH8KfV-10">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1190" y="680" as="sourcePoint" />
-              <mxPoint x="1250" y="680" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        
-        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Gets product information for orders" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;curved=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ac9yGH6YqjJo9ZlH8KfV-9" target="Ac9yGH6YqjJo9ZlH8KfV-8">
-            <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="950" y="710" as="sourcePoint" />
-              <mxPoint x="890" y="710" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-
-        <!-- Legend -->
-        <mxCell id="gQ8Jhj9TFWcc7jveIsfW-4" value="Legend" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#000000;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1100" width="180" height="210" as="geometry" />
+        <mxCell id="ext1" value="&lt;b&gt;Email Service&lt;/b&gt;&lt;br&gt;[External System]&lt;br&gt;&lt;br&gt;Sends order confirmations and notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="200" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gQ8Jhj9TFWcc7jveIsfW-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="gQ8Jhj9TFWcc7jveIsfW-4">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        
+        <mxCell id="ext2" value="&lt;b&gt;Payment Gateway&lt;/b&gt;&lt;br&gt;[External System]&lt;br&gt;&lt;br&gt;Processes payment transactions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="330" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gQ8Jhj9TFWcc7jveIsfW-6" value="Person" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=#1E4074;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontColor=#ffffff;" vertex="1" parent="gQ8Jhj9TFWcc7jveIsfW-5">
-          <mxGeometry width="180" height="30" as="geometry">
-            <mxRectangle width="180" height="30" as="alternateBounds" />
+        
+        <mxCell id="ext3" value="&lt;b&gt;Product Supplier&lt;/b&gt;&lt;br&gt;[External System]&lt;br&gt;&lt;br&gt;Provides product and stock updates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="460" width="160" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Relationships - Users to Web Apps -->
+        <mxCell id="rel1" value="Browses products&lt;br&gt;[HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="actor1" target="webapp1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mx
+        
+        <mxCell id="rel2" value="Places orders&lt;br&gt;[HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="actor2" target="webapp1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel3" value="Manages inventory&lt;br&gt;[HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="actor3" target="webapp2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="240" as="sourcePoint" />
+            <mxPoint x="880" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Web Apps to Microservices -->
+        <mxCell id="rel4" value="User authentication&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="webapp1" target="ms1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="390" as="sourcePoint" />
+            <mxPoint x="130" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel5" value="Product catalog&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="webapp1" target="ms3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel6" value="Order creation&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="webapp1" target="ms4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="390" as="sourcePoint" />
+            <mxPoint x="745" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel7" value="Staff authentication&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="webapp2" target="ms2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel8" value="Stock management&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="webapp2" target="ms5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="390" as="sourcePoint" />
+            <mxPoint x="1010" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Microservices to Databases -->
+        <mxCell id="rel9" value="Read/Write customer data&lt;br&gt;[T-SQL]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms1" target="db1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="560" as="sourcePoint" />
+            <mxPoint x="130" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel10" value="Read/Write staff data&lt;br&gt;[T-SQL]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms2" target="db2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="560" as="sourcePoint" />
+            <mxPoint x="350" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel11" value="Read/Write product data&lt;br&gt;[T-SQL]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms3" target="db3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="560" as="sourcePoint" />
+            <mxPoint x="570" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel12" value="Read/Write order data&lt;br&gt;[T-SQL]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms4" target="db4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="560" as="sourcePoint" />
+            <mxPoint x="790" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel13" value="Read/Write stock data&lt;br&gt;[T-SQL]" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms5" target="db5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="560" as="sourcePoint" />
+            <mxPoint x="1010" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Microservice Interactions -->
+        <mxCell id="rel14" value="Validate stock levels&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms4" target="ms5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="500" as="sourcePoint" />
+            <mxPoint x="920" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel15" value="Get product details&lt;br&gt;[JSON/HTTPS]" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms4" target="ms3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="525" as="sourcePoint" />
+            <mxPoint x="660" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- External System Connections -->
+        <mxCell id="rel16" value="Send order confirmations&lt;br&gt;[SMTP]" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms4" target="ext1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="475" as="sourcePoint" />
+            <mxPoint x="1150" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel17" value="Process payments&lt;br&gt;[HTTPS/API]" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ms4" target="ext2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="500" as="sourcePoint" />
+            <mxPoint x="1150" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="rel18" value="Receive stock updates&lt;br&gt;[HTTPS/API]" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="ext3" target="ms5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="510" as="sourcePoint" />
+            <mxPoint x="1100" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend1" value="Person" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="790" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend2" value="Container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="790" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend3" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#23A2D9;strokeColor=#0E7DAD;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="80" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend4" value="External System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;strokeColor=#736782;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="350" y="790" width="100" height="30" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
