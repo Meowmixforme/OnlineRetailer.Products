@@ -9,7 +9,7 @@ A backend service for an Amazon-style online retailer, developed for my universi
 This repository contains backend components for managing products and orders in an online retail environment. It is structured to support modular development and demonstrates core DevOps and microservices principles.
 
 
-
+C4 Level-1 Diagram
 <img width="811" height="1086" alt="466093642-c74e04eb-8271-4427-9cef-df6c521c195d" src="https://github.com/user-attachments/assets/d450bdb8-5ebd-488b-8c6c-5fbd94d0c558" />
 
 
