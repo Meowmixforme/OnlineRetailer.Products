@@ -12,7 +12,8 @@ This repository contains backend components for managing products and orders in 
 
 
 
-<img width="811" height="1086" alt="ThAmCo-Level-1 drawio" src="https://github.com/user-attachments/assets/c74e04eb-8271-4427-9cef-df6c521c195d" />
+<img width="500" height="500" alt="466093642-c74e04eb-8271-4427-9cef-df6c521c195d" src="https://github.com/user-attachments/assets/61c94f65-81a4-43c2-bc14-d37a8db6dc72" />
+
 
 
 
