@@ -280,19 +280,6 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Updates and&#xa;deletes user account data&#xa; via" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="NUFJ7V0JzWv0hho6ONeJ-8">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NUFJ7V0JzWv0hho6ONeJ-5" target="NUFJ7V0JzWv0hho6ONeJ-4" edge="1">
-            <mxGeometry x="-0.5041" y="-100" width="240" relative="1" as="geometry">
-              <mxPoint x="110" y="1200" as="sourcePoint" />
-              <mxPoint x="350" y="1200" as="targetPoint" />
-              <mxPoint as="offset" />
-              <Array as="points">
-                <mxPoint x="160" y="1210" />
-                <mxPoint x="1340" y="1210" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTP" c4Description="Updates stock levels via&#xa;admin interface" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="NUFJ7V0JzWv0hho6ONeJ-9">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NUFJ7V0JzWv0hho6ONeJ-1" target="TGqajWSAtrwi9OxxO3f8-13" edge="1">
             <mxGeometry x="-0.1429" y="-40" width="240" relative="1" as="geometry">
@@ -554,9 +541,9 @@
             <mxGeometry x="910" y="1490" width="290" height="210" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Persists and retrieves profile information" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="stqkthWCwU4mS-oV8G0q-1">
+        <object placeholders="1" c4Type="Relationship" c4Technology="T-SQL" c4Description="Persists and retrieves&#xa;profile information" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="stqkthWCwU4mS-oV8G0q-1">
           <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gQ8Jhj9TFWcc7jveIsfW-3" target="gQ8Jhj9TFWcc7jveIsfW-18">
-            <mxGeometry x="-0.1014" width="240" relative="1" as="geometry">
+            <mxGeometry x="0.1014" width="240" relative="1" as="geometry">
               <mxPoint x="990" y="850" as="sourcePoint" />
               <mxPoint x="1090" y="1530" as="targetPoint" />
               <Array as="points">
@@ -596,6 +583,18 @@
                 <mxPoint x="780" y="850" />
                 <mxPoint x="780" y="910" />
               </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="JSON/HTTPS" c4Description="Sends pick-pack-ship&#xa;instructions, updates inventory&#xa;status, confirms dispatches" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="stqkthWCwU4mS-oV8G0q-9">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NUFJ7V0JzWv0hho6ONeJ-5" target="NUFJ7V0JzWv0hho6ONeJ-4">
+            <mxGeometry x="0.7674" width="240" relative="1" as="geometry">
+              <mxPoint x="1590" y="1220" as="sourcePoint" />
+              <mxPoint x="1240" y="1220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="160" y="1210" />
+              </Array>
+              <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
