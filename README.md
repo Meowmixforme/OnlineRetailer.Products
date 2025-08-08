@@ -12,7 +12,8 @@ This repository contains backend components for managing products and orders in 
 
 
 
-<img width="500" height="500" alt="466093642-c74e04eb-8271-4427-9cef-df6c521c195d" src="https://github.com/user-attachments/assets/61c94f65-81a4-43c2-bc14-d37a8db6dc72" />
+<img width="811" height="1086" alt="466093642-c74e04eb-8271-4427-9cef-df6c521c195d" src="https://github.com/user-attachments/assets/d450bdb8-5ebd-488b-8c6c-5fbd94d0c558" />
+
 
 
 
