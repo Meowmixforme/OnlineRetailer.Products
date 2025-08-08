@@ -2,8 +2,6 @@
 
 A backend service for an Amazon-style online retailer, developed for my university Cloud Computing DevOps module.
 
-⚠️ This project was part of a now-retired backend integration. All credentials and endpoints are decommissioned and non-functional.
-
 ---
 
 ## Overview
