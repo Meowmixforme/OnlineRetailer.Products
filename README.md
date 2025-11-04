@@ -96,3 +96,5 @@ dotnet test ThAmCo.Services.ProductsAPI.Tests
 This project is licensed under the terms of the MIT Licence.
 
 [![YouTube Video Thumbnail](https://img.youtube.com/vi/-DI2byJ3PZg/0.jpg)](https://youtu.be/-DI2byJ3PZg)
+
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/F2fJjfRy4Vw/0.jpg)](https://youtu.be/F2fJjfRy4Vw) 
